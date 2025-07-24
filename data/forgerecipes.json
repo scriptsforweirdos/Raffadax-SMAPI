@@ -1,0 +1,428 @@
+{
+    "Raffadax.RCP_Airgetlam": {
+        "Weapon": "(W)26",
+        "Ingredient": "Raffadax.RCP_WineofIshtar",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Airgetlam"
+    },
+    "Raffadax.RCP_AntlerofCernunnos": {
+        "Weapon": "(W)15",
+        "Ingredient": "Raffadax.RCP_MeadofAbnoba",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_AntlerofCernunnos"
+    },
+    "Raffadax.RCP_Aurelia": {
+        "Weapon": "(W)11",
+        "Ingredient": "Raffadax.RCP_WineofDemeter",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Aurelia"
+    },
+    "Raffadax.RCP_Balmung": {
+        "Weapon": "(W)57",
+        "Ingredient": "Raffadax.RCP_MeadofGarmr",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Balmung"
+    },
+    "Raffadax.RCP_BowofEros": {
+        "Weapon": "(W)17",
+        "Ingredient": "Raffadax.RCP_WineofVenus",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_BowofEros"
+    },
+    "Raffadax.RCP_Bragi": {
+        "Weapon": "(W)6",
+        "Ingredient": "Raffadax.RCP_MeadofIdunn",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Bragi"
+    },
+    "Raffadax.RCP_Brionac": {
+        "Weapon": "(W)22",
+        "Ingredient": "Raffadax.RCP_MeadofBaldr",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Brionac"
+    },
+    "Raffadax.RCP_Brisingamen": {
+        "Weapon": "(W)64",
+        "Ingredient": "Raffadax.RCP_MeadofFreyja",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Brisingamen"
+    },
+    "Raffadax.RCP_Caladcholg": {
+        "Weapon": "(W)10",
+        "Ingredient": "Raffadax.RCP_RainbowSerpentMead",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Caladcholg"
+    },
+    "Raffadax.RCP_Caliburn": {
+        "Weapon": "(W)7",
+        "Ingredient": "Raffadax.RCP_LapisPhilosophorum",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Caliburn"
+    },
+    "Raffadax.RCP_Callisto": {
+        "Weapon": "(W)29",
+        "Ingredient": "Raffadax.RCP_WineofPolaris",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Callisto"
+    },
+    "Raffadax.RCP_ClaiomhSolais": {
+        "Weapon": "(W)0",
+        "Ingredient": "Raffadax.RCP_Ambrosia",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_ClaiomhSolais"
+    },
+    "Raffadax.RCP_Clarent": {
+        "Weapon": "(W)20",
+        "Ingredient": "Raffadax.RCP_WineofTitania",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Clarent"
+    },
+    "Raffadax.RCP_Corndelicorne": {
+        "Weapon": "(O)Raffadax.RCP_Alicorn",
+        "Ingredient": "Raffadax.RCP_MeadofEpona",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Corndelicorne"
+    },
+    "Raffadax.RCP_Dainsleif": {
+        "Weapon": "(W)54",
+        "Ingredient": "Raffadax.RCP_SuttungrMead",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Dainsleif"
+    },
+    "Raffadax.RCP_DragonCrescentBlade": {
+        "Weapon": "(W)57",
+        "Ingredient": "Raffadax.RCP_WineofBahamut",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_DragonCrescentBlade"
+    },
+    "Raffadax.RCP_Dreamcatcher": {
+        "Weapon": "(W)13",
+        "Ingredient": "Raffadax.RCP_WineofIktomi",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Dreamcatcher"
+    },
+    "Raffadax.RCP_Durandal": {
+        "Weapon": "(W)4",
+        "Ingredient": "Raffadax.RCP_WineofAres",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Durandal"
+    },
+    "Raffadax.RCP_Dystopia": {
+        "Weapon": "(W)8",
+        "Ingredient": "Raffadax.RCP_WineofEris",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Dystopia"
+    },
+    "Raffadax.RCP_Eurydice": {
+        "Weapon": "(W)12",
+        "Ingredient": "Raffadax.RCP_MeadofAristaeus",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Eurydice"
+    },
+    "Raffadax.RCP_Excalibur": {
+        "Weapon": "(W)7",
+        "Ingredient": "Raffadax.RCP_WineofHarmonia",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Excalibur"
+    },
+    "Raffadax.RCP_EyeofRa": {
+        "Weapon": "(W)29",
+        "Ingredient": "Raffadax.RCP_MeadofRa",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_EyeofRa"
+    },
+    "Raffadax.RCP_Faunus": {
+        "Weapon": "(W)5",
+        "Ingredient": "Raffadax.RCP_WineofPan",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Faunus"
+    },
+    "Raffadax.RCP_FrostFareBlade": {
+        "Weapon": "(W)48",
+        "Ingredient": "Raffadax.RCP_KuraokamiWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_FrostFareBlade"
+    },
+    "Raffadax.RCP_Galatine": {
+        "Weapon": "(W)2",
+        "Ingredient": "Raffadax.RCP_WineofBelenus",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Galatine"
+    },
+    "Raffadax.RCP_Gambanteinn": {
+        "Weapon": "(W)55",
+        "Ingredient": "Raffadax.RCP_WineofHekate",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Gambanteinn"
+    },
+    "Raffadax.RCP_Glamdring": {
+        "Weapon": "(W)20",
+        "Ingredient": "Raffadax.RCP_WineofOberon",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Glamdring"
+    },
+    "Raffadax.RCP_Gram": {
+        "Weapon": "(W)56",
+        "Ingredient": "Raffadax.RCP_MeadofKvasir",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Gram"
+    },
+    "Raffadax.RCP_Gungnir": {
+        "Weapon": "(W)23",
+        "Ingredient": "Raffadax.RCP_WineofOdin",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Gungnir"
+    },
+    "Raffadax.RCP_Inkanyamba": {
+        "Weapon": "(W)43",
+        "Ingredient": "Raffadax.RCP_MeadofOko",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Inkanyamba"
+    },
+    "Raffadax.RCP_Kaumodaki": {
+        "Weapon": "(W)46",
+        "Ingredient": "Raffadax.RCP_WineofHanuman",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Kaumodaki"
+    },
+    "Raffadax.RCP_Kerykeion": {
+        "Weapon": "(W)24",
+        "Ingredient": "Raffadax.RCP_WineofAsklepios",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Kerykeion"
+    },
+    "Raffadax.RCP_Kusanagi": {
+        "Weapon": "(W)50",
+        "Ingredient": "Raffadax.RCP_AmaterasuWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Kusanagi"
+    },
+    "Raffadax.RCP_KwakuAnanse": {
+        "Weapon": "(W)13",
+        "Ingredient": "Raffadax.RCP_WineofAnansi",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_KwakuAnanse"
+    },
+    "Raffadax.RCP_Kyuubi": {
+        "Weapon": "(W)19",
+        "Ingredient": "Raffadax.RCP_WineofInari",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Kyuubi"
+    },
+    "Raffadax.RCP_Laevateinn": {
+        "Weapon": "(W)45",
+        "Ingredient": "Raffadax.RCP_MeadofLoki",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Laevateinn"
+    },
+    "Raffadax.RCP_Lagertha": {
+        "Weapon": "(W)48",
+        "Ingredient": "Raffadax.RCP_MeadofSkadi",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Lagertha"
+    },
+    "Raffadax.RCP_Longinus": {
+        "Weapon": "(W)21",
+        "Ingredient": "Raffadax.RCP_HyperionWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Longinus"
+    },
+    "Raffadax.RCP_LorgMor": {
+        "Weapon": "(W)31",
+        "Ingredient": "Raffadax.RCP_DormarchWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_LorgMor"
+    },
+    "Raffadax.RCP_MahuikasTalon": {
+        "Weapon": "(W)9",
+        "Ingredient": "Raffadax.RCP_WineofPele",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_MahuikasTalon"
+    },
+    "Raffadax.RCP_Mezzaluna": {
+        "Weapon": "(W)1",
+        "Ingredient": "Raffadax.RCP_Soma",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Mezzaluna"
+    },
+    "Raffadax.RCP_MirrorofPachacutec": {
+        "Weapon": "(W)21",
+        "Ingredient": "Raffadax.RCP_ViracochaWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_MirrorofPachacutec"
+    },
+    "Raffadax.RCP_Mjollnir": {
+        "Weapon": "(W)63",
+        "Ingredient": "Raffadax.RCP_MeadofDonar",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Mjollnir"
+    },
+    "Raffadax.RCP_MomentoMori": {
+        "Weapon": "(W)61",
+        "Ingredient": "Raffadax.RCP_WineofPersephone",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_MomentoMori"
+    },
+    "Raffadax.RCP_MwindosScepter": {
+        "Weapon": "(W)27",
+        "Ingredient": "Raffadax.RCP_MeadofOshun",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_MwindosScepter"
+    },
+    "Raffadax.RCP_Naberius": {
+        "Weapon": "(W)51",
+        "Ingredient": "Raffadax.RCP_CerberusWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Naberius"
+    },
+    "Raffadax.RCP_Nidhoggr": {
+        "Weapon": "(W)59",
+        "Ingredient": "Raffadax.RCP_MeadofHel",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Nidhoggr"
+    },
+    "Raffadax.RCP_Ohto": {
+        "Weapon": "(W)28",
+        "Ingredient": "Raffadax.RCP_WineofTapio",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Ohto"
+    },
+    "Raffadax.RCP_Orcus": {
+        "Weapon": "(W)62",
+        "Ingredient": "Raffadax.RCP_WineofPluton",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Orcus"
+    },
+    "Raffadax.RCP_Orion": {
+        "Weapon": "(W)24",
+        "Ingredient": "Raffadax.RCP_WineofSirius",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Orion"
+    },
+    "Raffadax.RCP_Ouroboros": {
+        "Weapon": "(W)57",
+        "Ingredient": "Raffadax.RCP_MeadofJormungandr",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Ouroboros"
+    },
+    "Raffadax.RCP_PhoenixPinion": {
+        "Weapon": "(W)9",
+        "Ingredient": "Raffadax.RCP_PhoenixMead",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_PhoenixPinion"
+    },
+    "Raffadax.RCP_Ragnarok": {
+        "Weapon": "(W)58",
+        "Ingredient": "Raffadax.RCP_MeadofFenrir",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Ragnarok"
+    },
+    "Raffadax.RCP_Ratatoskr": {
+        "Weapon": "(W)28",
+        "Ingredient": "Raffadax.RCP_MeadofEostre",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Ratatoskr"
+    },
+    "Raffadax.RCP_Revontulet": {
+        "Weapon": "(W)4",
+        "Ingredient": "Raffadax.RCP_WineofTulikettu",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Revontulet"
+    },
+    "Raffadax.RCP_SavetheQueen": {
+        "Weapon": "(W)44",
+        "Ingredient": "Raffadax.RCP_MeadofBeyla",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_SavetheQueen"
+    },
+    "Raffadax.RCP_SeditsWhisker": {
+        "Weapon": "(W)19",
+        "Ingredient": "Raffadax.RCP_Huehuecoyotl",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_SeditsWhisker"
+    },
+    "Raffadax.RCP_SilverCrescent": {
+        "Weapon": "(W)21",
+        "Ingredient": "Raffadax.RCP_WineofArtemis",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_SilverCrescent"
+    },
+    "Raffadax.RCP_Skirnismal": {
+        "Weapon": "(W)52",
+        "Ingredient": "Raffadax.RCP_MeadofFreyr",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Skirnismal"
+    },
+    "Raffadax.RCP_StaffofIris": {
+        "Weapon": "(W)46",
+        "Ingredient": "Raffadax.RCP_WineofGanymede",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_StaffofIris"
+    },
+    "Raffadax.RCP_StaffofOisin": {
+        "Weapon": "(W)15",
+        "Ingredient": "Raffadax.RCP_MeadofHyldemor",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_StaffofOisin"
+    },
+    "Raffadax.RCP_StaffofYoba": {
+        "Weapon": "(W)4",
+        "Ingredient": "Raffadax.RCP_WineofYoba",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_StaffofYoba"
+    },
+    "Raffadax.RCP_Sundog": {
+        "Weapon": "(W)22",
+        "Ingredient": "Raffadax.RCP_ApolloWine",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Sundog"
+    },
+    "Raffadax.RCP_SwordofThunderbolt": {
+        "Weapon": "(W)62",
+        "Ingredient": "Raffadax.RCP_WineofJupiter",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_SwordofThunderbolt"
+    },
+    "Raffadax.RCP_Tezcatlipoca": {
+        "Weapon": "(W)16",
+        "Ingredient": "Raffadax.RCP_WineofCamazotz",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Tezcatlipoca"
+    },
+    "Raffadax.RCP_Thyrsus": {
+        "Weapon": "(W)27",
+        "Ingredient": "Raffadax.RCP_WineofBacchus",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Thyrsus"
+    },
+    "Raffadax.RCP_Triton": {
+        "Weapon": "(W)14",
+        "Ingredient": "Raffadax.RCP_WineofNeptune",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Triton"
+    },
+    "Raffadax.RCP_Tyrfing": {
+        "Weapon": "(W)18",
+        "Ingredient": "Raffadax.RCP_WineofAuberon",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Tyrfing"
+    },
+    "Raffadax.RCP_Vajra": {
+        "Weapon": "(W)17",
+        "Ingredient": "Raffadax.RCP_WineofOsiris",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Vajra"
+    },
+    "Raffadax.RCP_Wepwawet": {
+        "Weapon": "(W)60",
+        "Ingredient": "Raffadax.RCP_WineofAnubis",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Wepwawet"
+    },
+    "Raffadax.RCP_Zephyros": {
+        "Weapon": "(W)22",
+        "Ingredient": "Raffadax.RCP_WineofBoreas",
+        "CinderShards": 30,
+        "Result": "Raffadax.RCP_Zephyros"
+    }
+}

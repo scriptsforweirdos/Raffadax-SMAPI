@@ -1,0 +1,18 @@
+{
+  "Name": "Raffadax SMAPI Component",
+  "Author": "OnionNinja",
+  "Version": "5.0.0-beta.04",
+  "Description": "Spacecore API integration for Forge recipes",
+  "UniqueID": "Raffadax.SMAPI",
+  "EntryDll": "Raffadax.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore"
+    }
+  ]
+}

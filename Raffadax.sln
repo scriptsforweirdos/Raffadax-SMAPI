@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raffadax", "Raffadax.csproj", "{6986BE06-B4F7-4D43-BD6B-70A7FB774521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6986BE06-B4F7-4D43-BD6B-70A7FB774521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6986BE06-B4F7-4D43-BD6B-70A7FB774521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6986BE06-B4F7-4D43-BD6B-70A7FB774521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6986BE06-B4F7-4D43-BD6B-70A7FB774521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45348992-B656-4D0E-A84C-643B2109BCD2}
+	EndGlobalSection
+EndGlobal
