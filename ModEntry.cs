@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
-using Raffadax.APIs;
 using SpaceCore;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -35,7 +34,6 @@ namespace Raffadax
                 Monitor.Log("SpaceCore not loaded, Raffadax SMAPI will not load.", LogLevel.Error);
                 return;
             }
-            //CustomForgeRecipe.Recipes.Add(new JSONToSpaceCore());
         }
 
         /********

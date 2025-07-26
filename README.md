@@ -1,3 +1,3 @@
 # Raffadax SMAPI Component
-Not working at the moment. Will work eventually.
--ON
+
+Uses SpaceCore to implement recipes which create Raffadax Content Patcher weapons via combining Vanilla weapons and Raffadax Divine Wines at the forge.
