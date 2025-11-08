@@ -77,27 +77,37 @@ namespace Raffadax
         {
             if (arg2.Length != 4)
             {
-                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}");
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}", LogLevel.Error);
                 return false;
             }
             if (!ArgUtility.TryGet(arg2, 1, out string? map, out string? error, false))
             {
-                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse destination map.");
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse destination map.", LogLevel.Error);
                 return false;
             }
             if (Game1.getLocationFromName(map) is not GameLocation destination)
             {
-                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: {map} is not a valid map");
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: {map} is not a valid map", LogLevel.Error);
                 return false;
             }
             if (!(int.TryParse(arg2[2], out int xCoord) && int.TryParse(arg2[3], out int yCoord)))
             {
-                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse coordinates.");
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse coordinates.", LogLevel.Error);
                 return false;
             }
+            ModMonitor.Log("LadderWarp loaded", LogLevel.Info);
+            ModMonitor.Log($"Args {arg2}", LogLevel.Info);
             Farmer who = Game1.player;
             who.currentLocation.playSound("stairsdown");
+            Game1.displayFarmer = false;
+            Game1.player.temporarilyInvincible = true;
+            Game1.player.temporaryInvincibilityTimer = -2000;
+            Game1.player.freezePause = 1000;
             Game1.warpFarmer(destination.Name, xCoord, yCoord, who.FacingDirection, false);
+            Game1.fadeToBlackAlpha = 0.99f;
+            Game1.player.temporarilyInvincible = false;
+            Game1.player.temporaryInvincibilityTimer = 0;
+            Game1.displayFarmer = true;
             return true;
         }
     }
