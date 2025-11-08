@@ -7,6 +7,7 @@ using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.Enchantments;
 using StardewValley.ItemTypeDefinitions;
+using StardewValley.TerrainFeatures;
 using StardewValley.Tools;
 
 /// <summary>The mod entry point.</summary>
@@ -29,6 +30,8 @@ namespace Raffadax
             ModMonitor = Monitor;
             Helper = helper;
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
+            helper.Events.GameLoop.SaveCreated += OnSaveCreated;
+            helper.Events.GameLoop.SaveLoaded += OnSaveLoaded;
             if (!Helper.ModRegistry.IsLoaded("spacechase0.SpaceCore"))
             {
                 Monitor.Log("SpaceCore not loaded, Raffadax SMAPI will not load.", LogLevel.Error);
@@ -44,5 +47,28 @@ namespace Raffadax
             RecipeLoader = new RecipeLoader();
         }
 
+        private void OnSaveCreated(object sender, EventArgs e)
+        {
+            Game1.getFarm().resourceClumps.OnValueRemoved += OnClumpRemoved;
+        }
+
+        private void OnSaveLoaded(object sender, EventArgs e)
+        {
+            Game1.getFarm().resourceClumps.OnValueRemoved += OnClumpRemoved;
+        }
+
+        private void OnClumpRemoved(ResourceClump value)
+        {
+            Monitor.Log($"Removed Clump index {value.parentSheetIndex.Value}", LogLevel.Info);
+            if (value.parentSheetIndex.Value == ResourceClump.meteoriteIndex)
+            {
+                Monitor.Log($"This is a meteorite.", LogLevel.Info);
+                if (Game1.random.NextDouble() <= 0.5)
+                {
+                    Game1.createMultipleObjectDebris("(O)20", (int)value.Tile.X, (int)value.Tile.Y, 10);
+                }
+            }
+
+        }
     }
 }
