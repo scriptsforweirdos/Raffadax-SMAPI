@@ -37,6 +37,8 @@ namespace Raffadax
                 Monitor.Log("SpaceCore not loaded, Raffadax SMAPI will not load.", LogLevel.Error);
                 return;
             }
+
+            GameLocation.RegisterTileAction("RaffadaxLadderWarp", LadderWarp);
         }
 
         /********
@@ -69,6 +71,34 @@ namespace Raffadax
                 }
             }
 
+        }
+
+        internal static bool LadderWarp(GameLocation location, string[] arg2, Farmer farmer, Point point)
+        {
+            if (arg2.Length != 4)
+            {
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}");
+                return false;
+            }
+            if (!ArgUtility.TryGet(arg2, 1, out string? map, out string? error, false))
+            {
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse destination map.");
+                return false;
+            }
+            if (Game1.getLocationFromName(map) is not GameLocation destination)
+            {
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: {map} is not a valid map");
+                return false;
+            }
+            if (!(int.TryParse(arg2[2], out int xCoord) && int.TryParse(arg2[3], out int yCoord)))
+            {
+                ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse coordinates.");
+                return false;
+            }
+            Farmer who = Game1.player;
+            who.currentLocation.playSound("stairsdown");
+            Game1.warpFarmer(destination.Name, xCoord, yCoord, who.FacingDirection, false);
+            return true;
         }
     }
 }
