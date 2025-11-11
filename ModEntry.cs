@@ -38,7 +38,7 @@ namespace Raffadax
                 return;
             }
 
-            GameLocation.RegisterTileAction("RaffadaxLadderWarp", LadderWarp);
+            GameLocation.RegisterTileAction("RaffadaxLadderDown", LadderDown);
         }
 
         /********
@@ -73,7 +73,7 @@ namespace Raffadax
 
         }
 
-        internal static bool LadderWarp(GameLocation location, string[] arg2, Farmer farmer, Point point)
+        internal static bool LadderDown(GameLocation location, string[] arg2, Farmer farmer, Point point)
         {
             if (arg2.Length != 4)
             {
@@ -95,8 +95,8 @@ namespace Raffadax
                 ModMonitor.Log($"Error in TileAction {arg2} on tile {point} in {Game1.currentLocation.Name}: Couldn't parse coordinates.", LogLevel.Error);
                 return false;
             }
-            ModMonitor.Log("LadderWarp loaded", LogLevel.Info);
-            ModMonitor.Log($"Args {arg2}", LogLevel.Info);
+            //ModMonitor.Log("LadderDown loaded", LogLevel.Info);
+            //ModMonitor.Log($"Args {arg2}", LogLevel.Info);
             Farmer who = Game1.player;
             who.currentLocation.playSound("stairsdown");
             Game1.displayFarmer = false;
